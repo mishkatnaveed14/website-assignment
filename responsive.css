@@ -11,21 +11,6 @@
         /* z-index: 100000 !important; */
     }
 
-    /* section 4 */
-    /* .section4-inner {
-        flex-direction: column;
-    }
-
-    .video-img {
-        width: 70%;
-        height: 60%;
-        object-fit: fill;
-    }
-    .play-btn img{
-    top: 30%;
-    left: 35%;
-    height: 60px;
-    }*/
     .content-pic {
         flex-direction: column;
         margin: 0 !important;
@@ -180,10 +165,11 @@
         width: 170px !important;
         margin: 0 1px !important;
     }
-    .events{
+
+    .events {
         display: flex !important;
-      justify-content: center !important;
-      align-items: center !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
 

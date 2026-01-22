@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charitify || NGO/Charity/Fundraising Template</title>
-     <!-- bootstrap link -->
+    <!-- bootstrap link -->
     <link rel="stylesheet" href="./bootstrap.min.css">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
@@ -14,8 +15,9 @@
     <!-- responsive css -->
     <link rel="stylesheet" href="./responsive.css">
 </head>
+
 <body>
-     <!--header start  -->
+    <!--header start  -->
     <!-- top header -->
     <div class="hd-top">
         <div class="container header">
@@ -41,7 +43,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 custom me-3">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 custom me-3">
                     <li class="nav-item dropdown">
                         <a class="nav-link text-dark" href="index.html" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -65,8 +67,8 @@
                         <a class="nav-link active" aria-current="page" href="event.html">Event</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-dark" href="pages.html" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link text-dark" href="pages.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Pages
                         </a>
                         <ul class="dropdown-menu">
@@ -79,8 +81,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-dark" href="blog.html" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link text-dark" href="blog.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Blog
                         </a>
                         <ul class="dropdown-menu">
@@ -107,23 +109,86 @@
 
     <!-- hero section -->
     <div class="about-con">
-        <div class="about-content p-5 text-light text-xs-left">
-            <div class="about-con1">
-                <h1 class="fw-bolder my-4">About Us</h1>
-                <p>Help today because tomorrow you may be the one who <br>needs more helping!</p>
-                <div class="mini-con text-light mb-5 mt-4">
-                    <span class="mini-con1 text-decoration-none"><a href="index.html">HOME</a></span> /
-                    <span class="mini-con1 active" style="color: #f8b864;">About Us</span>
+        <div class="container">
+            <div class="about-content p-5 text-light text-xs-left">
+                <div class="about-con1">
+                    <h1 class="fw-bolder my-4">Image Gallery</h1>
+                    <p>Help today because tomorrow you may be the one who <br>needs more helping!</p>
+                    <div class="mini-con text-light mb-5 mt-4">
+                        <span class="mini-con1 text-decoration-none"><a href="">HOME</a></span> /
+                        <span class="mini-con1 active" style="color: #f8b864;">Gallery</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
 
-    <!-- hero end about section-->
+    <!-- hero end of about section-->
+
+    <!-- main collapse of pages > gallery  -->
+    <div class="container">
+        <p class="d-inline-flex gap-3 my-5 ">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                aria-expanded="false" aria-controls="multiCollapseExample1">All</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                aria-controls="multiCollapseExample2">Branding</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Design</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Wordpress</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Marketing</button>
+        </p>
+        <div class="row">
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <img src="./images/gallery-1.jpg" style="width: 200px;"class="mt-4  active" alt="gallery img">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <img src="./images/causes-3.jpg" style="width: 200px;" class="mt-4"alt="gallery img">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <img src="./images/causes-2.jpg" style="width: 200px;"class="mt-4" alt="gallery img">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <img src="./images/gallery-4.jpg" style="width: 200px;"class="mt-4" alt="gallery img">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <img src="./images/gallery-5.jpg" style="width: 200px;"class="mt-4" alt="gallery img">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <img src="./images/gallery-6.jpg" style="width: 200px;" class="mt-4"alt="gallery img">
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
-      <section class="section10">
+    <!-- main collapse of pages > gallery end -->
+
+
+
+
+
+    <section class="section10">
         <div class="container slider-track">
             <marquee behavior="scroll" direction="to left" scrollamount="14" scrolldelay="10">
                 <img src="./images/sponsor-1.png" alt="sponsar1">
@@ -139,7 +204,7 @@
     <!-- section 10 end -->
 
 
-  <!--footer section start -->
+    <!--footer section start -->
     <footer>
         <div class="container">
             <div class="main-container-footer  row d-flex justify-content-around  gx-2">
@@ -192,23 +257,24 @@
         </div>
     </footer>
 
-<!-- copy right section  -->
- <div class="copyright">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 copy-con">
-                 2021 Charitify Powered by DynamicLayers
-            </div>
-            <div class="col-md-6 copy-con d-flex ">
-                <p class="ms-4"><a href="#"></a>Order</p>
-                <p class="ms-4"><a href="#"></a>Terms</p>
-                <p class="ms-4"><a href="#"></a>Report Problem</p>
+    <!-- copy right section  -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 copy-con">
+                    2021 Charitify Powered by DynamicLayers
+                </div>
+                <div class="col-md-6 copy-con d-flex ">
+                    <p class="ms-4"><a href="#"></a>Order</p>
+                    <p class="ms-4"><a href="#"></a>Terms</p>
+                    <p class="ms-4"><a href="#"></a>Report Problem</p>
+                </div>
             </div>
         </div>
     </div>
- </div>
 
 
-         <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
